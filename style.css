@@ -2,13 +2,20 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+body, html {
+    height: 100%;
+    display: grid;
+  }
+  .center-me {
+    margin: auto;
+  }
 
-p { text-align: center }      /* Размещение текста и заголовков по центру */
+p { text-align: center }     
 h1 { text-align: center }
 h2 { text-align: center }
 h3 { text-align: center }
 
-img.center-img {                  /*размещаю картинку по центру */
+img.center-img {                  
         display: block;
         margin: 0 auto;
       }
@@ -18,24 +25,23 @@ img.center-img {                  /*размещаю картинку по це�
     margin-left: 80px;
 }
 
-    /* Свойства ссылок */
+ 
 a {
     display: block;
-    text-decoration: none; /* убрать подчеркивание ссылки */
-    margin-bottom: 1.2em;   /* размер шрифта */
+    text-decoration: none; 
+    margin-bottom: 1.2em; 
     position: relative;
-    color: yellow;        /* цвет ссылки */
+    color: yellow;        
     }
     .group-item a{
-        text-align: center;    /* Ссылка по центру */
+        text-align: center;    
     }
 
-    /* Что делать при наведении на ссылку */
+ 
 a:hover {
     color: rgba(62, 224, 56, 0.938);
 }
 
-    /* Оформление заголовков */
 h1 {
     font-size: 2em;
     color: rgba(11, 221, 29, 0.938);
@@ -51,14 +57,8 @@ h3 {
    color: rgb(207, 164, 24); 
 }
 
-    /* Выравнивание текста по центру блока */
-body, html {
-    height: 100%;
-    display: grid;
-  }
-  .center-me {
-    margin: auto;
-  }
+   
+
 
  
 
